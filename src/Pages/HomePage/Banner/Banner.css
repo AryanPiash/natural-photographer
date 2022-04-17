@@ -1,0 +1,10 @@
+.carousel-caption{}
+.carousel-caption h3{
+    font-size: 44px;
+    font-family: 'DM Serif Text', serif;
+}
+.carousel-caption p{
+    font-size: 18px;
+    width: 75%;
+    margin: 30px auto;
+}
