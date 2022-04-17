@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Natural Photography",
+        "price": "300",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://3.imimg.com/data3/IB/CS/MY-15330144/natural-photography-500x500.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Natural Photography",
+        "price": "100",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://3.imimg.com/data3/IB/CS/MY-15330144/natural-photography-500x500.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Natural Photography",
+        "price": "150",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://3.imimg.com/data3/IB/CS/MY-15330144/natural-photography-500x500.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Natural Photography",
+        "price": "180",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://3.imimg.com/data3/IB/CS/MY-15330144/natural-photography-500x500.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Natural Photography",
+        "price": "100",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://3.imimg.com/data3/IB/CS/MY-15330144/natural-photography-500x500.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Natural Photography",
+        "price": "300",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://3.imimg.com/data3/IB/CS/MY-15330144/natural-photography-500x500.jpg"
+    }
+]
