@@ -1,11 +1,18 @@
-.secvice{
-    border: 1px solid lightgray;
-    margin: 10px;
-    padding-bottom: 10px;
-    border-radius: 10px;
-    text-align: center;
+.service{
+    transition: .4s;
 }
-.secvice img{
-    width: 100%;
-    border-radius: 10px 10px 0 0;
+.service:hover{
+    box-shadow: 7px 9px 15px 5px rgb(0 0 0 / 15%);
+}
+.service:hover .service-btn{
+    background: #058861;
+}
+.service-btn {
+    background: #60c2a4;
+    color: #fff;
+    border: navajowhite;
+    padding: 10px 0;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: .5s;
 }

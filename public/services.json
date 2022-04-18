@@ -1,44 +1,44 @@
 [
     {
         "id": 1,
-        "name": "Natural Photography",
+        "name": "Landscape photography",
         "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://3.imimg.com/data3/IB/CS/MY-15330144/natural-photography-500x500.jpg"
+        "description": "Nocturnal creatures should be photographed in the early morning or late afternoon when they are less active. This will make it easier for you to get the shot, but you will not be disrupting them.",
+        "img": "https://i.pinimg.com/originals/46/cd/e1/46cde1793ed0e7727ffbf6dc7a7ea189.jpg"
     },
     {
         "id": 2,
-        "name": "Natural Photography",
+        "name": "Macro nature photography",
         "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://3.imimg.com/data3/IB/CS/MY-15330144/natural-photography-500x500.jpg"
+        "description": "Simply stated, a nature photographer must have a love of and respectful appreciation for nature. It is also very important to have a good eye.",
+        "img": "http://thedreamwithinpictures.com/wp-content/uploads/2014/09/ee0cf__nature-macro-photography-4.jpg"
     },
     {
         "id": 3,
-        "name": "Natural Photography",
+        "name": "Abstract nature photography",
         "price": "150",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://3.imimg.com/data3/IB/CS/MY-15330144/natural-photography-500x500.jpg"
+        "description": "The range of career possibilities for a nature photographer is very wide. While not everyone can land a job with National Geographic or Nature magazine, there are plenty of opportunities for photographers.",
+        "img": "https://www.rwongphoto.com/images/xl/RW9379.jpg"
     },
     {
         "id": 4,
-        "name": "Natural Photography",
+        "name": "Flower photography",
         "price": "180",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://3.imimg.com/data3/IB/CS/MY-15330144/natural-photography-500x500.jpg"
+        "description": "Keep your eyes open for opportunities, as they can come from unexpected sources. Businesses, such as outdoor sporting goods and gardening companies, need professional-quality photographers to illustrate their promotional materials.",
+        "img": "https://freedesignfile.com/upload/2019/03/Golden-flower-close-shot-closeup-Stock-Photo.jpg"
     },
     {
         "id": 5,
-        "name": "Natural Photography",
+        "name": "Wildlife photography",
         "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://3.imimg.com/data3/IB/CS/MY-15330144/natural-photography-500x500.jpg"
+        "description": "The greeting card and calendar industries are also possible venues for your images.Simply stated, a nature photographer must have a love of and respectful appreciation for nature.",
+        "img": "https://camerajabber.com/wp-content/uploads/2016/09/Jason_Wharam_04.png"
     },
     {
         "id": 6,
-        "name": "Natural Photography",
+        "name": "Astrophotography",
         "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-        "img": "https://3.imimg.com/data3/IB/CS/MY-15330144/natural-photography-500x500.jpg"
+        "description": "Nature photographers must also be adventurous and willing to go to remote and inhospitable places, where the weather may be harsh, in order to take great pictures.",
+        "img": "https://www.northlandscapes.com/files/images/lightroom-presets/astrophotography/before-after-split/astrophotography-lightroom-presets-before-after-26.jpg"
     }
 ]
