@@ -4,7 +4,7 @@ import './Works.css';
 const Works = () => {
     return (
         <div className='container-fluid my-5'>
-            <h1 className='gallery-title'>Awesome Works</h1>
+            <h1 className='gallery-title'>Awesome Gallery</h1>
             <div className='row'>
                 <div className="col-lg-3 gallery">
                     <img src="https://livewp.site/wp/md/eclipse/wp-content/uploads/sites/21/2014/03/portfolio-570-1.jpg" alt="" />
