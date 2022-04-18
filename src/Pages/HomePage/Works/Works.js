@@ -3,7 +3,7 @@ import './Works.css';
 
 const Works = () => {
     return (
-        <div className='container-fluid my-5'>
+        <div id='gallery' className='container-fluid my-5'>
             <h1 className='gallery-title'>Awesome Gallery</h1>
             <div className='row'>
                 <div className="col-lg-3 gallery">
