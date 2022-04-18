@@ -1,6 +1,5 @@
 import React from 'react';
 import google from '../../../images/social/google.png'
-import facebook from '../../../images/social/facebook.png'
 import github from '../../../images/social/github.png'
 import auth from '../../../firebase_init';
 import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
@@ -14,10 +13,8 @@ const Social = () => {
         errorElement = (
             <div className='text-danger text-center'>
                 <p>Error: {error?.message} {githubError?.message}</p>
-                <p>Error: {githubError?.message}</p>
             </div>
         )
-        console.log(error?.message,githubUser?.email); 
     }
     return (
         <div>
@@ -28,14 +25,10 @@ const Social = () => {
             </div>
             {errorElement}
             <div className='mt-4'>
-                <button onClick={() => signInWithGoogle()} className='btn btn-light d-block mx-auto w-50'>
+                <button onClick={() => signInWithGoogle()} className='btn btn-light d-block mx-auto w-50 mb-3'>
                     <img className='me-2' style={{ width: '30px' }} src={google} alt="" />
                     <span>Google Sign In</span>
-                </button>
-                <button className='btn btn-light d-block mx-auto w-50 my-3'>
-                    <img className='me-2' style={{ width: '30px' }} src={facebook} alt="" />
-                    <span>Facebook Sign In</span>
-                </button>
+                </button>   
                 <button onClick={() => signInWithGithub()} className='btn btn-light d-block mx-auto w-50'>
                     <img className='me-2' style={{ width: '30px' }} src={github} alt="" />
                     <span>Github Sign In</span>

@@ -11,7 +11,7 @@ const Banner = () => {
     return (
         <Carousel  fade pause={false}>
             <Carousel.Item interval={2000}>
-                <img height={800}
+                <img height={600}
                     className="d-block w-100"
                     src={banner1}
                     alt="First slide"
@@ -22,7 +22,7 @@ const Banner = () => {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={2000}>
-                <img height={800} width={'auto'}
+                <img height={600} width={'auto'}
                     className="d-block w-100"
                     src={banner2}
                     alt="Second slide"
@@ -34,7 +34,7 @@ const Banner = () => {
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item interval={3000}>
-                <img height={800} width={'auto'}
+                <img height={600} width={'auto'}
                     className="d-block w-100 mh-75"
                     src={banner3}
                     alt="Third slide"

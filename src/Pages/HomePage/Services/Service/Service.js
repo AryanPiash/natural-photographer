@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardGroup } from 'react-bootstrap';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './Service.css';
 
 const Service = ({ service }) => {
@@ -18,7 +18,8 @@ const Service = ({ service }) => {
                     <Card.Text className='fs-5 fw-bold'>Price: ${price}</Card.Text>
                     <Card.Text>{description}</Card.Text>
                 </Card.Body>
-                <button onClick={() => navigateServiceDetail(id)} className='w-50 mx-auto mb-4 shadow service-btn'>Book Now</button>
+                <Link to='/checkout' className='text-center'> <button className='w-50 mx-auto mb-4 shadow service-btn'>Book now</button></Link>
+
             </Card>
         </CardGroup>
     );
