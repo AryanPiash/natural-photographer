@@ -1,17 +1,17 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAuth } from 'firebase/auth'
+import { getAuth } from "firebase/auth";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDWYT2oYIszOsWr0Hu4MREimjC4Ek1Y6oU",
-  authDomain: "genius-car-service-cea3a.firebaseapp.com",
-  projectId: "genius-car-service-cea3a",
-  storageBucket: "genius-car-service-cea3a.appspot.com",
-  messagingSenderId: "689628270214",
-  appId: "1:689628270214:web:71eea36670130fe8510b07"
+  apiKey: "AIzaSyBOao8PCu8Crq_Gz-djFyLzxqjogfKpNIs",
+  authDomain: "natural-photographer.firebaseapp.com",
+  projectId: "natural-photographer",
+  storageBucket: "natural-photographer.appspot.com",
+  messagingSenderId: "937901853183",
+  appId: "1:937901853183:web:2e7f104059fdb155953fca"
 };
 
 // Initialize Firebase

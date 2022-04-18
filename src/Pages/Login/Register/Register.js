@@ -8,7 +8,12 @@ const Register = () => {
     const emailRef = useRef('')
     const passwordRef = useRef('')
     const navigate = useNavigate()
-    const [createUserWithEmailAndPassword, user,] = useCreateUserWithEmailAndPassword(auth);
+    const [
+        createUserWithEmailAndPassword,
+        user,
+        loading,
+        error,
+      ] = useCreateUserWithEmailAndPassword(auth);
 
     const handleSubmit = event => {
         event.preventDefault()
