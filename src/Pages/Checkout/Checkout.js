@@ -2,7 +2,6 @@ import React from 'react';
 import { Button, Form } from 'react-bootstrap';;
 
 const Checkout = () => {
-
     const handleSubmit = event => {
         event.preventDefault()
         alert('Thank you for the booking.')

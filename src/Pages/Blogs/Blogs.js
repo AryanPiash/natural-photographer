@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Shared/Footer/Footer';
 
 const Blogs = () => {
     return (
@@ -21,6 +22,7 @@ const Blogs = () => {
                     <li>Firebase Pricing</li>
                 </ol>
             </div>
+            <Footer></Footer>
         </div>
     );
 };
