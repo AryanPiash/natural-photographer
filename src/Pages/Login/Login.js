@@ -28,11 +28,9 @@ const Login = () => {
     const emailVerification = async () => {
         
        await sendEmailVerification()
-       alert('email sent')
     }
     if (user) {
         navigate(from, { replace: true });
-        alert('user found')
     }
     
 

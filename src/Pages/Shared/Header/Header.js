@@ -13,23 +13,23 @@ const Header = () => {
         signOut(auth)
     }
     return (
-        <Navbar sticky='top' collapseOnSelect expand="lg" bg="primary" variant="dark">
+        <Navbar style={{backgroundImage: 'linear-gradient(15deg, #17e6cd 30%, #286cfc 100%)'}} sticky='top' collapseOnSelect expand="lg"  variant="dark">
             <Container>
-                <Navbar.Brand as={Link} to="/">
+                <Navbar.Brand className='text-dark fw-bold fs-4' as={Link} to="/">
                     Natural Photographer
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="header-navbar ms-auto">
-                        <Nav.Link href="#services">Services</Nav.Link>
-                        <Nav.Link href="/checkout">Check Out</Nav.Link>
-                        <Nav.Link href="/blogs">Blogs</Nav.Link>
-                        <Nav.Link href="/about">About Me</Nav.Link>
+                        <Nav.Link className='text-white' href="#services">Services</Nav.Link>
+                        <Nav.Link className='text-white' href="/checkout">Check Out</Nav.Link>
+                        <Nav.Link className='text-white' href="/blogs">Blogs</Nav.Link>
+                        <Nav.Link className='text-white' href="/about">About Me</Nav.Link>
                    
                         {user ?
-                            <Nav.Link onClick={handleSignOut} as={Link} to="/login"> logout </Nav.Link>
+                            <Nav.Link className='text-warning  fw-bold pt-1' onClick={handleSignOut} as={Link} to="/login"> <h5>logout</h5> </Nav.Link>
                             :
-                            <Nav.Link as={Link} to="/login"> Login </Nav.Link>
+                            <Nav.Link className='text-warning fw-bold pt-1' as={Link} to="/login"> <h5>Login</h5> </Nav.Link>
                         }
                     </Nav>
                 </Navbar.Collapse>  
