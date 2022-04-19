@@ -1,7 +1,7 @@
 import { async } from '@firebase/util';
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
-import { useSendEmailVerification, useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useAuthState, useSendEmailVerification, useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase_init';
 import Loading from '../Shared/Loading/Loading';
@@ -12,7 +12,7 @@ const Login = () => {
     const emailRef = useRef('')
     const passwordRef = useRef('')
     const navigate = useNavigate()
-    const [signInWithEmailAndPassword, user,loading] = useSignInWithEmailAndPassword(auth);
+    const [signInWithEmailAndPassword, user,loading,error] = useSignInWithEmailAndPassword(auth);
     const [sendEmailVerification] = useSendEmailVerification(auth);
     const [sendPasswordResetEmail] = useSendPasswordResetEmail(auth);
 
@@ -26,8 +26,7 @@ const Login = () => {
         const email = emailRef.current.value
         const password = passwordRef.current.value
         signInWithEmailAndPassword(email, password);
-        console.log(emailRef.current.value);
-        console.log(passwordRef.current.value);
+        
     }
     
     const emailVerification = async () => {
@@ -40,6 +39,7 @@ const Login = () => {
     if (user) {
         navigate(from, { replace: true });
     }
+    
     const resetPasswort = () => {
         const email = emailRef.current.value
         sendPasswordResetEmail(email)
@@ -60,14 +60,15 @@ const Login = () => {
                         <Form.Label>Password</Form.Label>
                         <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
                     </Form.Group>
+                    <p className='text-danger'>{error?.message}</p>
                     <p>New to Genius Car?
                         <Link to='/register' className='text-warning text-decoration-none ms-2'>Resister Now</Link>
                     </p>
 
-                    <Button onClick={emailVerification} variant="primary" type="submit">
+                    <Button className='px-5' onClick={emailVerification} variant="primary" type="submit">
                         Login
                     </Button>
-                    <Link onClick={resetPasswort} to='/login' className='ms-4'>Forget Password?</Link>
+                    <Link onClick={resetPasswort} to='/resetpassword' className='ms-4 text-decoration-none'>Forget Password?    </Link>
                 </Form>
                 <Social></Social>
             </div>
