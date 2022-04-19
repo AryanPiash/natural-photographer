@@ -1,3 +1,4 @@
+import logo from '../../../images/logo.png'
 import { signOut } from 'firebase/auth';
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
@@ -5,6 +6,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
 import auth from '../../../firebase_init';
 import './Header.css'
+
 
 
 const Header = () => {
@@ -16,7 +18,7 @@ const Header = () => {
         <Navbar style={{backgroundImage: 'linear-gradient(15deg, #17e6cd 30%, #286cfc 100%)'}} sticky='top' collapseOnSelect expand="lg"  variant="dark">
             <Container>
                 <Navbar.Brand className='text-dark fw-bold fs-4' as={Link} to="/">
-                    Natural Photographer
+                    <img src={logo} alt="" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
