@@ -1,10 +1,17 @@
-# Getting Started with Create React App
+# Natural Photographer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is created using React [Live Website](https://natural-photographer.web.app/).
 
 ## Available Scripts
+### Website Fuatures
+* Home page (It have Navbar,Banner,Services,Gallery and Footer)
+* Blog page (It have 3 blogs based on some QnA about Firebase Auth)
+* About Me page (Have a sort description about Aryan Piash)
+* Login and Resister page (User can login/resister with email and password,google,github)
+* Ckeckout page (Have a secret and protected page.If user doesn't loged in they can't show and aceess to this Checkout page.)
+* Not fount 404 page (If any route user enter that is not exist on this website.The 404 page will show and throw and humble error.)
+* All pages are Responsived for different devices.
 
-In the project directory, you can run:
 
 ### `npm start`
 
