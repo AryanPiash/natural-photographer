@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../Shared/Footer/Footer';
 
 const Blogs = () => {
+    // blogs
     return (
         <div>
             <div className='w-75 mx-auto border p-4 mt-4 bg-white shadow'>
